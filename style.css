@@ -93,5 +93,8 @@ html {
 .next-date {
     opacity: 0.5;
 }
+.today {
+    background-color: #167e56;
+}
   
   
