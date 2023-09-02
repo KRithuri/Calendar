@@ -39,4 +39,6 @@ const renderCalendar = () => {
         "November",
         "December"
     ];
+
+    document.querySelector(".date h1").innerHTML = months[date.getMonth()];
 }
