@@ -16,4 +16,8 @@ const renderCalendar = () => {
     ).getDate();
 
     const firstDayIndex = date.getDate();
+
+    const lastDayIndex = new Date(
+        
+    )
 }
