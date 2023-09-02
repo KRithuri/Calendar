@@ -3,7 +3,7 @@ const renderCalendar = () => {
     date.setDate(1);
     const monthDays = document.querySelector(".days");
 
-    const lastDate = new Date(
+    const lastDay = new Date(
         date.getFullYear(),
         date.getMonth() + 1,
         0
@@ -15,7 +15,7 @@ const renderCalendar = () => {
         0
     ).getDate();
 
-    const firstDayIndex = date.getDate();
+    const firstDayIndex = date.getDay();
 
     const lastDayIndex = new Date(
         date.getFullYear(),
