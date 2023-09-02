@@ -18,6 +18,10 @@ const renderCalendar = () => {
     const firstDayIndex = date.getDate();
 
     const lastDayIndex = new Date(
-        
-    )
+        date.getFullYear(),
+        date.getMonth() + 1,
+        0
+    ).getDay();
+
+    const nextDays = 7 - lastDayIndex - 1;
 }
