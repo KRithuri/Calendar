@@ -10,6 +10,10 @@ const renderCalendar = () => {
     ).getDate();
 
     const prevLastDay = new Date(
-        
-    )
+        date.getFullYear(),
+        date.getMonth(),
+        0
+    ).getDate();
+
+    const firstDayIndex = date.getDate();
 }
