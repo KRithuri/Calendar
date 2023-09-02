@@ -44,4 +44,8 @@ const renderCalendar = () => {
     document.querySelector(".date p").innerHTML = new Date().toDateString();
 
     let days = "";
+
+    for (let x = firstDayIndex; x > 0; x--) {
+        days += `<div class="prev-date">${prevLastDay - x + 1}</div>`;
+    }
 }
